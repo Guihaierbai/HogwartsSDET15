@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
 
+# 本地chrome开启debug模式：chrome --remote-debugging-port=9222
 class TestTestdemo():
     def setup_method(self, method):
         options = Options()
