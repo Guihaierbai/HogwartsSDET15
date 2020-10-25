@@ -82,6 +82,8 @@ class TestTestdemo():
         # 利用读取的cookie 完成登录操作
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame")
         for cookie in cookies:
+            if 'expiry' in cookie.keys():
+                cookie.pop('expiry')
             self.driver.add_cookie(cookie)
 
         self.driver.refresh()

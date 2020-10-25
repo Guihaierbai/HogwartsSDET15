@@ -1,0 +1,10 @@
+add:
+  datas:
+    - [1, 1, 2]
+    - [100, 1, 200]
+    - [0.1, 0.1, 0.2]
+
+  ids:
+    - 'int_case'
+    - 'bignum_case'
+    - 'float_case'
