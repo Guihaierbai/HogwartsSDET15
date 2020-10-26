@@ -1,4 +1,4 @@
-from testing.podemo2.page.main_page import MainPage
+from web.podemo2.page.main_page import MainPage
 
 
 class TestWX:

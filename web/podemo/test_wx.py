@@ -1,4 +1,4 @@
-from testing.podemo.index_page import IndexPage
+from web.podemo.index_page import IndexPage
 
 
 class TestWX:

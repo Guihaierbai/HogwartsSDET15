@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-from testing.podemo2.page.add_member_page import AddMemberPage
+from web.podemo2.page.add_member_page import AddMemberPage
 
 
 class MainPage:

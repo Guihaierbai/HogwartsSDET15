@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-from testing.podemo.login_page import LoginPage
-from testing.podemo.register_page import RegisterPage
+from web.podemo.login_page import LoginPage
+from web.podemo.register_page import RegisterPage
 
 
 class IndexPage:
