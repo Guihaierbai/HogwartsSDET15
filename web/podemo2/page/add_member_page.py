@@ -22,9 +22,11 @@ class AddMemberPage(BasePage):
         return True
 
     def get_member(self):
+        time.sleep(3)
+        # find_elements返回列表，如果没有找到元素则返回空列表
         contactlist = self.driver.find_elements(By.CSS_SELECTOR, '.member_colRight_memberTable_td:nth-child(2)')
 
-        print(contactlist)
+        # print(contactlist)
         titlelist = []
         for element in contactlist:
             titlelist.append(element.get_attribute("title"))

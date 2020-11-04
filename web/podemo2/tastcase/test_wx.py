@@ -12,5 +12,5 @@ class TestWX:
         addmember = self.main.goto_addmember()
         addmember.add_member(username, account, phonenum)
         member = addmember.get_member()
-        print(member)
-        # assert username in addmember.get_member()
+        # print(member)
+        assert username in addmember.get_member()
