@@ -20,8 +20,12 @@ class BasePage:
         if self.base_url != "":
             self.driver.get(self.base_url)
 
+        self.driver.implicitly_wait(5)
+
     def find(self, by, locator):
+        # 封装find_element方法
         return self.driver.find_element(by, locator)
 
     def finds(self, by, locator):
+        # 封装find_elements方法
         return self.driver.find_elements(by, locator)
