@@ -10,9 +10,9 @@ class TestContact:
 
     def test_addcontact(self):
         # 测试添加成员
-        name = "test006"
+        name = "test007"
         gender = "男"
-        phonenum = "13522115450"
+        phonenum = "13522115410"
 
         result = self.main.goto_address() \
             .click_addnumber() \
@@ -23,7 +23,7 @@ class TestContact:
 
     def test_deletecontact(self):
         # 测试删除成员
-        name = "test006"
+        name = "test007"
         self.main.goto_address().click_number(name).contact_setting().edit_number().delete_contact()
         try:
             self.app.find_by_scroll(name)

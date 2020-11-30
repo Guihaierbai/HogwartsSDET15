@@ -10,6 +10,7 @@ class BasePage:
         self.driver = driver
 
     def find(self, by, locator):
+        print("self.driver=%s" % self.driver)
         return self.driver.find_element(by, locator)
 
     def find_and_click(self, by, locator):
