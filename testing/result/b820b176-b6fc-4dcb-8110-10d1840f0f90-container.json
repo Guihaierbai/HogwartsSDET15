@@ -1,0 +1,24 @@
+{
+  "uuid": "9de4cac1-5d40-4c61-b3be-3defd6c2321f",
+  "children": [
+    "e379f9ba-3295-472a-a441-b02ddbddf689"
+  ],
+  "befores": [
+    {
+      "name": "_Module__pytest_setup_function",
+      "status": "passed",
+      "start": 1604475931744,
+      "stop": 1604475931744
+    }
+  ],
+  "afters": [
+    {
+      "name": "_Module__pytest_setup_function::0",
+      "status": "passed",
+      "start": 1604475931745,
+      "stop": 1604475931745
+    }
+  ],
+  "start": 1604475931744,
+  "stop": 1604475931745
+}

@@ -1,0 +1,47 @@
+{
+  "name": "test_search2",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "1a0977f2-4923-40d9-bb8d-9e609d2191a6-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1604475867480,
+  "stop": 1604475867480,
+  "uuid": "c29dca99-7e33-4566-86cd-a5ffa9703260",
+  "historyId": "29469449b5c2d39c5553bf48d63f968f",
+  "testCaseId": "48d2063acecd88d6e8284dcfd72af7eb",
+  "fullName": "test_mark#test_search2",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "search"
+    },
+    {
+      "name": "suite",
+      "value": "test_mark"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-1S4HHB9"
+    },
+    {
+      "name": "thread",
+      "value": "26460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_mark"
+    }
+  ]
+}

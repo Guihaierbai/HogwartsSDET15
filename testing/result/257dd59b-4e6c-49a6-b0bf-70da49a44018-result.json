@@ -1,0 +1,58 @@
+{
+  "name": "test_add[bignum_case]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 101 == 200",
+    "trace": "self = <testing.test_calc.TestCalc object at 0x00000209E5AC4460>, a = 100, b = 1, expect = 200\n\n    @pytest.mark.parametrize('a, b, expect', get_datas()[0], ids=get_datas()[1])\n    def test_add(self, a, b, expect):\n        # calc = Calculator()\n        result = self.calc.add(a, b)\n>       assert result == expect\nE       assert 101 == 200\n\ntest_calc.py:32: AssertionError"
+  },
+  "parameters": [
+    {
+      "name": "a",
+      "value": "100"
+    },
+    {
+      "name": "b",
+      "value": "1"
+    },
+    {
+      "name": "expect",
+      "value": "200"
+    }
+  ],
+  "start": 1604475867180,
+  "stop": 1604475867181,
+  "uuid": "c2cf54ce-67dd-405a-bdd9-f825669f89ea",
+  "historyId": "a2c5a0005507f104fcc417f544c91cf6",
+  "testCaseId": "a7b29b08300809261dc069b49da8543b",
+  "fullName": "test_calc.TestCalc#test_add",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-1S4HHB9"
+    },
+    {
+      "name": "thread",
+      "value": "26460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

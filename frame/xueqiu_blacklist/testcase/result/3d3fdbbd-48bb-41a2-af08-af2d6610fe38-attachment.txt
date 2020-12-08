@@ -1,0 +1,7 @@
+goto_main self.driver<appium.webdriver.webdriver.WebDriver (session="beab9a17-feda-4dc3-81ec-a1ce2c17171b")>
+find_self.driver=<appium.webdriver.webdriver.WebDriver (session="beab9a17-feda-4dc3-81ec-a1ce2c17171b")>
+find_self.driver=<appium.webdriver.webdriver.WebDriver (session="beab9a17-feda-4dc3-81ec-a1ce2c17171b")>
+instance.driver=<appium.webdriver.webdriver.WebDriver (session="beab9a17-feda-4dc3-81ec-a1ce2c17171b")>
+find_self.driver=<appium.webdriver.webdriver.WebDriver (session="beab9a17-feda-4dc3-81ec-a1ce2c17171b")>
+find_self.driver=<appium.webdriver.webdriver.WebDriver (session="beab9a17-feda-4dc3-81ec-a1ce2c17171b")>
+find_self.driver=<appium.webdriver.webdriver.WebDriver (session="beab9a17-feda-4dc3-81ec-a1ce2c17171b")>

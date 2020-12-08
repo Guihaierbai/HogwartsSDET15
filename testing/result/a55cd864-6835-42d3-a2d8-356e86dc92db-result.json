@@ -1,0 +1,40 @@
+{
+  "name": "test_add1",
+  "status": "passed",
+  "start": 1604475867420,
+  "stop": 1604475867420,
+  "uuid": "9d151e54-506e-41f5-ae9e-f0f2fa4f1f6c",
+  "historyId": "f9ab1d9cc85d37a857db0ac55622db10",
+  "testCaseId": "7b49b0081d8b1e0a0d682102025665a9",
+  "fullName": "test_calc.TestCalc#test_add1",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-1S4HHB9"
+    },
+    {
+      "name": "thread",
+      "value": "26460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "test_login1",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "2918a274-7cd8-4094-85e9-2e44e669cb5e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1604475867465,
+  "stop": 1604475867465,
+  "uuid": "c04eb456-5f80-4287-95c0-b01d237444e6",
+  "historyId": "f3be40bbd6c39cf0ecdfa12a8867554e",
+  "testCaseId": "4bc7314b6e48e84db19f78af8947642e",
+  "fullName": "test_mark#test_login1",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "login"
+    },
+    {
+      "name": "suite",
+      "value": "test_mark"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-1S4HHB9"
+    },
+    {
+      "name": "thread",
+      "value": "26460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_mark"
+    }
+  ]
+}

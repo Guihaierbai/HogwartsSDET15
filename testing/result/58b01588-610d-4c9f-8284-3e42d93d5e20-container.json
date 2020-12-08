@@ -1,0 +1,26 @@
+{
+  "uuid": "3c273dc6-44b9-4f89-8c6a-f0be8fd8077c",
+  "children": [
+    "c0093149-6a12-49c9-8611-4536abe283ca",
+    "aab44ac7-e95c-4282-af11-7a2ebc2ca51a",
+    "e379f9ba-3295-472a-a441-b02ddbddf689"
+  ],
+  "befores": [
+    {
+      "name": "_Module__pytest_setup_module",
+      "status": "passed",
+      "start": 1604475931708,
+      "stop": 1604475931708
+    }
+  ],
+  "afters": [
+    {
+      "name": "_Module__pytest_setup_module::0",
+      "status": "passed",
+      "start": 1604475931746,
+      "stop": 1604475931746
+    }
+  ],
+  "start": 1604475931708,
+  "stop": 1604475931746
+}

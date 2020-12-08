@@ -1,0 +1,40 @@
+{
+  "name": "test_answer",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 4 == 5\n +  where 4 = inc(3)",
+    "trace": "def test_answer():\n>       assert inc(3) == 5\nE       assert 4 == 5\nE        +  where 4 = inc(3)\n\ntest_demo.py:6: AssertionError"
+  },
+  "start": 1604475867446,
+  "stop": 1604475867447,
+  "uuid": "1ddb1bed-22e1-47df-9128-0a14837d5d79",
+  "historyId": "8eb971d13b0d6a43fe517151dead2e2a",
+  "testCaseId": "f09542d7d0cd3629beb2fa5024c22587",
+  "fullName": "test_demo#test_answer",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_demo"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-1S4HHB9"
+    },
+    {
+      "name": "thread",
+      "value": "26460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_demo"
+    }
+  ]
+}

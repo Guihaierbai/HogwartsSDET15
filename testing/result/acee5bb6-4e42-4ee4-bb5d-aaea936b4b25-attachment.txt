@@ -1,0 +1,4 @@
+TestDemo setup_class
+TestDemo setup
+test demo1
+TestDemo teardown
