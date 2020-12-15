@@ -18,12 +18,13 @@ class TestTag:
     def setup_class(self):
         self.tag = Tag()
 
+    # 更新标签
     @pytest.mark.parametrize("tag_id, tag_name, group_name", [
         ["etv82lDAAANkzTMv21Copenpeh5tzUFw", "tag1_new_", "Guihaierbai"],
         ["etv82lDAAANkzTMv21Copenpeh5tzUFw", "tag1_new_中文", "Guihaierbai"],
         ["etv82lDAAANkzTMv21Copenpeh5tzUFw", "tag1_new_!@#", "Guihaierbai"]
     ])
-    def test_tag_list(self, tag_id, tag_name, group_name):
+    def test_tag_update(self, tag_id, tag_name, group_name):
         tag_name = tag_name + str(datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
         r = self.tag.list()
         r = self.tag.update(

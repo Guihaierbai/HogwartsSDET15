@@ -23,6 +23,11 @@ class Tag:
         return token
 
     def add(self):
+        # 添加标签
+        r = requests.post(
+            'https://qyapi.weixin.qq.com/cgi-bin/externalcontact/add_corp_tag',
+            params={"access_token": self.token}
+        )
         pass
 
     def list(self):
