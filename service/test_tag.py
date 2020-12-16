@@ -43,3 +43,27 @@ class TestTag:
         # assert jsonpath(r.json(), "$..[?(@.name='{tag_name}')]") is not None
         # print("tags:%s" %tags)
         assert tags != []
+
+    def test_add_tag(self):
+        # todo： 测试数据要放到数据文件中
+        group_name = "group1"
+        tag = [
+            {"name": "tag1"},
+            {"name": "tag2"},
+            {"name": "tag3"}
+        ]
+        self.tag.add(group_name, tag)
+
+    def test_list(self):
+        # groupid etv82lDAAATecTA2N-sC9BbqgOEZoXzg
+        # tag1 id etv82lDAAA30zOLHzBVqRsJrv2LZABsA
+        self.tag.list()
+
+    # 40068 非法的tagid
+    # 1. 删除接口有问题
+    # 2. 再进行重试（重试次数：N）： 手动实现或借助pytest钩子（rerun插件）
+    #    a. 在添加一个接口
+    #    b. 对添加的接口再删除
+    #    c. 查询是否删除成功
+    def test_delete_tag(self):
+        self.tag.delete()
