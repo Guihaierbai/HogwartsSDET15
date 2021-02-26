@@ -13,11 +13,12 @@ class TestCalc:
 
     # 判断输入是否为数字
     def is_number(self, a, b, expect):
-        str1, str2, str3 = str(a), str(b), str(expect)
-        num1 = str1.isdigit()
-        num2 = str2.isdigit()
-        num3 = str3.isdigit()
-        if num1 == num2 == num3 is True:
+        # str1, str2, str3 = str(a), str(b), str(expect)
+        # num1 = str1.isdigit()
+        # num2 = str2.isdigit()
+        # num3 = str3.isdigit()
+        [str1, str2, str3] = map(lambda x: str(x).isdigit(), [a, b, expect])
+        if str1 == str2 == str3 is True:
             pass
         else:
             print("请输入数字")
