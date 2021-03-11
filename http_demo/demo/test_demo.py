@@ -1,4 +1,6 @@
+import jsonpath
 import requests
+from hamcrest.core import assert_that
 
 
 class TestDemo:
@@ -8,3 +10,6 @@ class TestDemo:
         print(r.text)
         print(r.json())
         assert r.status_code == 200
+
+    def test_query(self):
+        r = requests.get('https://httpbin.testing-studio.com/get')
